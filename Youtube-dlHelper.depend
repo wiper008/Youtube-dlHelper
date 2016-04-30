@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1462059796 source:d:\coding\youtube-dlhelper\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<windows.h>
+	<sstream>
+	<ctype.h>
+
