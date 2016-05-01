@@ -13,17 +13,21 @@ int main()
 {
     string url, cont, format, selection;
     stringstream update;
-    //Welcome message (4 second wait time)
+
+    //Welcome message
     system("color A");
-    cout << "Welcome to Youtube-dl helper (including x64 FFmpeg)\n\n " << endl;
-    cout << "This little tool was written by Aljaz Gros" << endl << "Youtube-dl and FFmpeg belong to their respective owners and are not owned by me" << endl;
+    cout << "Welcome to Youtube-dl helper\n\n " << endl;
+    cout << "This little 'tool' was written by Aljaz Gros" << endl;
+    cout << "Youtube-dl and FFmpeg belong to their respective owners and are not owned by me" << endl;
     cout << "I wrote this just to make downloading/conversion easier for windows users" << endl << endl;
+    cout << "If you haven't got youtube-dl and/or FFMpeg get them now as they are required for this 'tool' to work properly" << endl;
+    cout << "If you experiance any ffprobe errors please read README.txt\n\n" << endl;
     system("pause");
     system("cls");
-    system("color F");
-    //Clears text and sets color to bright white after user presses any key
+    system("color F"); //Clears text and sets color to bright white after user presses any key
 
-    //Selection
+
+    //Selection menu
     select:
     cout << "What would you like to do?" << endl;
     cout << "1) Update" << endl;
@@ -33,7 +37,7 @@ int main()
     cin >> selection;
     string keep_file="";
 
-    //Ifidi if if
+    //If for selection
     if(selection == "1")
     {
         update << "youtube-dl -U";
