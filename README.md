@@ -1,4 +1,4 @@
-# Youtube-dlHelper
+# Youtube-dlHelper CURRENTLY ON HOLD
 A front-end application for Youtube-dl (and FFMpeg for convertion)
 
 Currently what it can do:
